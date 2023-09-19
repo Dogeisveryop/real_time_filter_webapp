@@ -1,0 +1,20 @@
+h1 {
+  font-size: 25px !important; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  letter-spacing: 4px ;
+}
+
+.btn-info:hover {
+    background-color: limegreen;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 2px 2px 40px red;}
+    to{box-shadow: 2px 2px 40px green;}
+}
